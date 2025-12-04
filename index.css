@@ -1,0 +1,132 @@
+body{
+    background-color: linear-gradient(to right, rgb(255, 0, 150), to left, rgb(255, 200, 0));
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-top: 2px;
+    margin: 50px auto;
+    max-width:1000px;
+    animation: peice 10s ease-in-out 0s infinite alternate forwards;
+}
+
+@keyframes peice{
+    0%{box-shadow: 0 0 10px 5px rgba(245, 2, 2, 0.979); }
+    25%{box-shadow: 0 0 15px 7px rgb(235, 252, 0); }
+    50%{box-shadow: 0 0 20px 10px rgb(2, 253, 15); }
+    75%{box-shadow: 0 0 15px 7px rgb(41, 4, 250); }
+    100%{box-shadow: 0 0 10px 5px rgba(255, 4, 242, 0.979); }
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+}
+
+#h3i{
+    text-align: center;
+    font-weight: bold;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    background-color: black;
+    color:white;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    padding-top: 2px;
+    padding-bottom: 6px;
+}
+
+#hr1{
+    margin-top: 10px; 
+}
+#hr2{
+    margin-top: 30px;
+}   
+
+#hr3{
+    margin-top: 500px; 
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    background-color:blanchedalmond;
+    text-shadow: 5px 5px 10px;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    position: sticky;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+} 
+
+h2{
+    text-align: center;
+    background-color: gray;
+}
+
+h3{
+    text-shadow: 5px 5px 10px black;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+#img1{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    box-shadow: 5px 5px 10px 10px grey;
+    float: left;
+}
+
+#img2{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    box-shadow: 5px 5px 10px 10px grey;
+    float: left;
+}
+
+p{
+    text-shadow: 2px 2px 5px  rgba(22, 245, 134, 0.952);
+    font-size: 22px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+}
+
+h5{
+    margin-top: 7px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+nav{
+    background-color: burlywood;
+    text-shadow: 5px 5px 15px;
+    text-align: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    top: 0px;
+    left: 200px;
+    position: sticky;
+    
+}
+
+#p1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer{ 
+    font-size: 20px;
+}
